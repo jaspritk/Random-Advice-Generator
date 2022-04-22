@@ -10,7 +10,7 @@
   <title>Advice generator app</title>
 </head>
 
-<body>
+<body onload="newData()">
 
   <div class="main">
     <div class="card">
@@ -20,7 +20,7 @@
         <img src="images/pattern-divider-desktop.svg" alt="" class="desktop-divider">
         <img src="images/pattern-divider-mobile.svg" alt="" class="mobile-divider">
       </div>
-      <button class="btn" id="btn" value="Reload Page" onClick="window.location.reload(true)">
+      <button class="btn" id="btn" value="Reload Page" onClick="newData()">
         <img src="images/icon-dice.svg" alt="icon-dice">
       </button>
     </div>

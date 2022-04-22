@@ -65,7 +65,7 @@ img {
     background-color: hsl(150, 100%, 66%);
     position: absolute;
     bottom: -20.5px;
-    padding: 12px;
+    padding: 15px;
     border: none;
     border-radius: 50px;
     display: flex;
@@ -80,6 +80,14 @@ img {
 .card button img {
     width: 17px;
 }
+
+button:disabled,
+button[disabled],
+button[disabled]:hover {
+    background-color: hsl(193, 38%, 86%);
+    box-shadow: none;
+}
+
 
 @media only screen and (max-width: 375px) {
 
